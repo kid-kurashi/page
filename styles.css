@@ -287,7 +287,9 @@ body {
     margin-top: 5px;
     display: inline-block;
 }
-
+.question_inf ul{
+    list-style-type: disc;
+}
 .question_inf li {
     display: inline-block;
     margin-right: 10px;
