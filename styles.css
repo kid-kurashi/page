@@ -44,44 +44,114 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
 }
 
-.clearfloat:after {
+/*CLEARFIX*****************************************/
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+/**************************************************/
 
+
+/*BODY STYLE***************************************/
 body {
-    min-width: 760px;
-    width: 100%;
+    background: #FFF;
 }
+.main-wrap {
+    min-width: 545px;
+}
+/**************************************************/
 
+
+/*PANE STYLE***************************************/
 .pane {
-    width: 100%;
-    background: #F1F1F1;
-    display: inline-block;
-    height: 28px;
+    background: #f2f2f2;
+    padding-left: 12px;
 }
-
-.pane ul {
-    padding: 0px 15px;
-}
-
-.pane li {
-    display: inline-block;
-    margin: 4px 8px;
-}
-
-.pane a {
+.pane__a {
     color: #4485cf;
     font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+.pane__a_position{
+    margin: 0 10px;
 }
 
+.pane__a:hover{
+    text-decoration: underline;
+}
+/**************************************************/
+
+
+/*HEADER*******************************************/
 .header {
     width: 100%;
     height: 65px;
     display: block;
     background: #4f5a6e;
 }
+
+.header__left {
+    height: 65px;
+    width: 250px;
+    display: inline-block;
+    background: #424b5f;
+}
+
+.header__left_position{
+    float: left;
+}
+
+.header__search {
+    height: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    margin-left: 250px;
+    margin-right: 300px;
+    background: #4f5a6e;
+}
+
+.header__right {
+    display: table;
+    width: 299px;
+    height: 65px;
+    border-left: #424b5f 1px solid;
+    text-align: center;
+}
+
+.header__right_position{
+    float: right;
+}
+
+.header__left_menu-ham{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    background-image: url("menu_ham.svg");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+.header__left_menu-ham:hover{
+    background-color: #64728c;
+}
+
+.header__left_logo{
+    font-size: 24px;
+    color: #fff;
+    float: right;
+    margin-top: 18px;
+    margin-right: 85px;
+    font-weight: 900;
+}
+/**************************************************/
+
+
 
 .page_header {
     display: inline-block;
@@ -405,7 +475,7 @@ body {
     text-decoration-color: #4A70BE;
 }
 
-.input_search {
+.header__search_input-search {
     width: 100%;
     background: #424b5f;
     border: 0;
@@ -422,9 +492,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 3px;
+    outline: none;
 }
 
-.input_search::placeholder {
+.header__search_input-search::placeholder {
     text-align: center;
     color: #a7b3cb;
     font-size: 13px;
@@ -439,34 +510,6 @@ body {
     width: 65px;
     height: 65px;
     align-items: center;
-}
-
-.header_1 {
-    height: 65px;
-    width: 250px;
-    display: inline-block;
-    float: left;
-    background: #424b5f;
-}
-
-.header_3 {
-    display: table;
-    float: right;
-    width: 299px;
-    height: 65px;
-    border-left: #424b5f 1px solid;
-    text-align: center;
-    align-items: center;
-}
-
-.header_2 {
-    height: 65px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: block;
-    margin-left: 250px;
-    margin-right: 300px;
-    background: #4f5a6e;
 }
 
 .all_questions h1 {
@@ -500,7 +543,7 @@ body {
     text-decoration: none;
 }
 
-.header_4 {
+.header__plus {
     width: 64px;
     height: 64px;
     float: right;
@@ -509,15 +552,11 @@ body {
     text-align: center;
 }
 
-.header_4 img {
+.header__plus img {
     display: inline-block;
     width: 28px;
     height: 29px;
     padding: 16px;
-}
-
-.body_cls {
-    min-width: 545px;
 }
 
 .nav_bar_login {
@@ -572,15 +611,15 @@ body {
         display: none;
     }
 
-    .header_3 {
+    .header__right {
         display: none;
     }
 
-    .header_2 {
+    .header__search {
         margin-right: 65px;
     }
 
-    .header_4 {
+    .header__plus {
         display: table;
     }
 }
@@ -590,15 +629,15 @@ body {
         display: block;
     }
 
-    .header_3 {
+    .header__right {
         display: table;
     }
 
-    .header_2 {
+    .header__search {
         margin-right: 300px;
     }
 
-    .header_4 {
+    .header__plus {
         display: none;
     }
 }
