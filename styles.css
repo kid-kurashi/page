@@ -116,9 +116,10 @@ body {
 .header__right {
     display: table;
     width: 299px;
-    height: 65px;
     border-left: #424b5f 1px solid;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 13px;
 }
 
 .header__right_position {
@@ -161,7 +162,7 @@ body {
     background-color: #65c178;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 37px;
+    padding: 9px 37px 10px;
     color: #FFF;
     display: inline-block;
     font-size: 14px;
@@ -191,7 +192,7 @@ body {
 .nav-bar__login {
     width: 250px;
     height: 64px;
-    border-bottom: #424b5f 1px solid;
+    border-bottom: #485265 1px solid;
 }
 
 .nav-bar__menu {
@@ -265,7 +266,7 @@ body {
 
 /*NAVBAR**********************************************/
 
-.page_header {
+.page-header {
     display: inline-block;
 }
 
@@ -275,22 +276,6 @@ body {
     font-weight: 700;
     color: #FFF;
     display: inline;
-}
-
-.logo {
-    width: 24px;
-    height: 24px;
-    padding: 20px;
-    display: inline-block;
-}
-
-.logo_h {
-    float: right;
-    color: #FFF;
-    font-size: 22px;
-    padding-right: 85px;
-    padding-top: 20px;
-    font-weight: 900;
 }
 
 .nav-bar_position {
@@ -394,8 +379,11 @@ body {
 
 /*************************************************/
 
+
+/*PAGE***************************************/
 .page {
     display: table;
+    padding: 23px 30px;
 }
 
 .question {
@@ -470,18 +458,25 @@ body {
     align-content: baseline;
 }
 
-.all_questions {
+/*ALL QUESTIONS******************************/
+.all-questions {
     display: table;
-    margin-left: 30px;
-    width: 90%;
 }
 
-.questions_filters {
-    display: table;
+/*ALL QUESTIONS******************************/
+
+.questions-filters__buttons{
+    display: inline-block;
+    word-spacing: 0;
+}
+.questions-filters{
+
+}
+.questions-filters_position{
     margin-top: 20px;
 }
 
-.questions_filters a {
+.questions-filters a {
     padding: 13px;
     font-size: 12px;
     border: 1px solid rgba(217, 217, 217, 0.54);
@@ -492,12 +487,12 @@ body {
     text-decoration: none;
 }
 
-.questions_filters a:hover {
+.questions-filters a:hover {
     color: #4A70BE;
     text-decoration: none;
 }
 
-.questions_filters button {
+.questions-filters button {
     margin-left: 12px;
     padding: 11px;
     display: inline-block;
@@ -519,7 +514,7 @@ body {
     margin-right: 10px;
 }
 
-.questions_filters button {
+.questions-filters button {
     display: inline-block;
     float: right;
 }
@@ -589,9 +584,10 @@ body {
     align-items: center;
 }
 
-.all_questions h1 {
-    margin: 0;
-    padding-top: 23px;
+.page-header{
+
+}
+.page-h1{
     white-space: nowrap;
     color: #333;
     font-family: 'PT Sans', Arial, sans-serif;
