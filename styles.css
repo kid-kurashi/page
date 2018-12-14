@@ -14,7 +14,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     font-family: "PT Sans", Helvetica, Arial, sans-serif
@@ -32,7 +31,6 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
     content: none;
 }
 
@@ -92,7 +90,7 @@ body {
     height: 163px;
     width: 186px;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     background: #616d84;
     display: block;
@@ -109,7 +107,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     margin-bottom: 12px;
-    word-spacing: 0px;
+    word-spacing: 0;
     line-height: 1.3em;
 }
 .promo__info{
@@ -244,7 +242,7 @@ body {
     width: 250px;
 }
 
-.nav-bar__a {
+.nav-bar__link {
     width: 195px;
     display: inline-block;
     font-weight: 900;
@@ -264,11 +262,11 @@ body {
     text-decoration: underline;
 }
 
-.nav-bar__a_brightness {
+.link_brightness {
     color: #a7b3cb;
 }
 
-.nav-bar__a_brightness:hover {
+.link_brightness:hover {
     text-decoration: underline;
     color: #fff;
 }
@@ -289,24 +287,24 @@ body {
     display: inline;
 }
 
-.nav-bar__a_item-position {
+.nav-bar__link_position {
     float: left;
     margin-left: 20px;
 }
 
-.nav-bar__a_item-all-questions-image {
+.nav-bar__link_all-questions-image {
     background-image: url("icon_list.png");
 }
 
-.nav-bar__a_item-all-tags-image {
+.nav-bar__link_all-tags-image {
     background-image: url("icon_tag.png");
 }
 
-.nav-bar__a_item-all-users-image {
+.nav-bar__link_all-users-image {
     background-image: url("icon_group.png");
 }
 
-.nav-bar__a_ext-size {
+.link_ext-size {
     font-size: 15px;
 }
 
@@ -412,7 +410,7 @@ body {
     font-size: 10px;
     position: relative;
     top: -1px;
-    left: 0px;
+    left: 0;
     margin: 2px;
     line-height: 1em;
 }
@@ -725,7 +723,7 @@ body {
     text-decoration-color: #4A70BE;
 }
 
-.header__search_input-search {
+.header__input-search {
     width: 100%;
     background: #424b5f;
     border: 0;
@@ -745,7 +743,7 @@ body {
     outline: none;
 }
 
-.header__search_input-search::placeholder {
+.header__input-search::placeholder {
     text-align: center;
     color: #a7b3cb;
     font-size: 13px;
