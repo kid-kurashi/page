@@ -1,0 +1,26 @@
+.green-button {
+    background-color: #65c178;
+    border-radius: 5px;
+    text-align: center;
+    padding: 11px 37px 12px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1em;
+}
+
+.green-button_position {
+    margin-top: 14px;
+}
+
+.green-button:hover {
+    background-color: #50a062;
+    text-decoration: none;
+}
+
+.green-button_specify {
+    padding: 8px 20px;
+    margin-top: 20px;
+}

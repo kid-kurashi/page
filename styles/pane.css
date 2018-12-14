@@ -1,0 +1,20 @@
+.pane {
+    background: #f2f2f2;
+    padding-left: 12px;
+}
+
+.pane__a {
+    color: #4485cf;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pane__a_position {
+    margin: 0 10px;
+}
+
+.pane__a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.container {
+    background: #FFF;
+}
+
+/*BODY STYLE***************************************/
+body {
+    background: #FFF;
+}
+
+.main-wrap {
+    min-width: 545px;
+    display: table;
+    width: 100%;
+}
