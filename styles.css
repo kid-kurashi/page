@@ -48,7 +48,9 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /**************************************************/
-
+.container{
+    background: #FFF;
+}
 /*BODY STYLE***************************************/
 body {
     background: #FFF;
@@ -86,6 +88,7 @@ body {
 
 /**************************************************/
 .promo{
+    text-align: center;
     height: 163px;
     width: 186px;
     position: fixed;
@@ -107,6 +110,7 @@ body {
     text-align: center;
     margin-bottom: 12px;
     word-spacing: 0px;
+    line-height: 1.3em;
 }
 .promo__info{
     text-align: center;
@@ -163,7 +167,7 @@ body {
     width: 65px;
     height: 65px;
     display: inline-block;
-    background-image: url("menu_ham.svg");
+    background-image: url("icon_ham.svg");
     background-size: 22px;
     background-repeat: no-repeat;
     background-position: center;
@@ -180,12 +184,14 @@ body {
     margin-right: 85px;
     margin-top: 20px;
     width: 80px;
+    line-height: 1em;
 }
 
 .header__icon-logo {
     fill: #FFF;
     width: 100%;
     height: 100%;
+    margin-top: 3px;
 }
 
 /**************************************************/
@@ -195,12 +201,13 @@ body {
     background-color: #65c178;
     border-radius: 5px;
     text-align: center;
-    padding: 9px 37px 10px;
+    padding: 11px 37px 12px;
     color: #FFF;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
+    line-height: 1em;
 }
 
 .green-btn_position {
@@ -210,6 +217,11 @@ body {
 .green-btn:hover {
     background-color: #50a062;
     text-decoration: none;
+}
+
+.green-btn_specify{
+    padding: 8px 20px;
+    margin-top: 20px;
 }
 
 /*GREEN BUTTON****************************************/
@@ -245,6 +257,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 32px;
+    line-height: 1.35em;
 }
 
 .nav-bar__login a:hover {
@@ -266,11 +279,11 @@ body {
 }
 
 .nav-bar__a_login-image {
-    background-image: url("padlock.png");
+    background-image: url("icon_lock.png");
 }
 
 .nav-bar__block-login {
-    background: image("padlock.png");
+    background: image("icon_lock.png");
     background-size: 20px 20px;
     width: 100%;
     display: inline;
@@ -282,15 +295,15 @@ body {
 }
 
 .nav-bar__a_item-all-questions-image {
-    background-image: url("clipboards.png");
+    background-image: url("icon_list.png");
 }
 
 .nav-bar__a_item-all-tags-image {
-    background-image: url("tag.png");
+    background-image: url("icon_tag.png");
 }
 
 .nav-bar__a_item-all-users-image {
-    background-image: url("group.png");
+    background-image: url("icon_group.png");
 }
 
 .nav-bar__a_ext-size {
@@ -309,6 +322,7 @@ body {
     font-weight: 700;
     color: #FFF;
     display: inline;
+    line-height: 1em;
 }
 
 .nav-bar_position {
@@ -352,18 +366,20 @@ body {
     font-size: 16px;
     font-family: 'PT Sans', Arial, sans-serif;
     line-height: 1.4;
+    display: block;
 }
 
 .questions-bar__header {
     color: #333333;
     text-decoration: none;
     display: block;
-    padding-top: 16px;
+    padding-top: 18px;
     border-bottom: 1px #dae1e8 solid;
     font-weight: 700;
     font-size: 13px;
-    padding-bottom: 11px;
+    padding-bottom: 13px;
     font-family: 'PT Sans', Arial, sans-serif;
+    line-height: 1em;
 }
 
 .questions-bar__question_position {
@@ -374,6 +390,7 @@ body {
     display: inline-block;
     color: #a8b1ba;
     font-size: 14px;
+    line-height: 1em;
 }
 
 .questions-bar__info-container {
@@ -397,6 +414,7 @@ body {
     top: -1px;
     left: 0px;
     margin: 2px;
+    line-height: 1em;
 }
 
 /*QUESTIONS BAR***************************************/
@@ -444,7 +462,7 @@ body {
 }
 
 .answered-image {
-    background: url("answered.png");
+    background: url("icon_answered.png");
     display: inline-block;
     background-size: 16px 16px;
     background-repeat: no-repeat;
@@ -457,6 +475,7 @@ body {
 .answered-text_bold {
     font-size: 20px;
     font-weight: 900;
+    line-height: 1em;
 }
 
 .answers-wrap {
@@ -466,37 +485,20 @@ body {
 
 /*Answers***************************************/
 
-.answers h1 {
-    font-weight: 900;
-    font-size: 20px;
-    color: #B0B8C0;
-}
-
-.answers h2 {
-    font-size: 14px;
-    color: #B0B8C0;
-}
-
-.question p {
-    font-size: 15px;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: #555;
-    display: block;
-    margin: 10px 0;
-}
 
 .question-title {
     font-size: 21px;
     font-weight: 700;
     color: #000;
     display: block;
-    margin-top: 6px;
+    margin-top: 9px;
     text-decoration: none;
+    line-height: 1em;
+    margin-bottom: 3px;
 }
 
 .question-title:hover {
-    color: #4864b0;
+    color: #2d72d9;
     text-decoration: underline;
 }
 
@@ -509,6 +511,7 @@ body {
     font-weight: 900;
     font-size: 13px;
     color: #898D92;
+    line-height: 1em;
 }
 .question-complexity_position{
     margin-left: 3px;
@@ -570,13 +573,14 @@ body {
 
 .f__button {
     border: 1px solid #ffffffff;
-    padding: 10px 13px;
+    padding: 12px 13px;
     font-size: 13px;
     display: inline-block;
     font-weight: 900;
     color: #4F6173;
     text-decoration: none;
     word-spacing: 0;
+    line-height: 1em;
 }
 
 .filter-button {
@@ -589,6 +593,7 @@ body {
     font-weight: 900;
     color: #4F6173;
     height: 41px;
+    line-height: 1.5em;
 }
 
 .svg-icon_filter-level {
@@ -660,6 +665,7 @@ body {
     text-decoration: none;
     font-weight: 900;
     font-size: 12px;
+    line-height: 1em;
 }
 
 .tag:hover {
@@ -686,6 +692,7 @@ body {
     display: inline-block;
     color: #a8b1ba;
     font-size: 13px;
+    line-height: 1em;
 }
 
 .question-info_after:after {
@@ -696,6 +703,7 @@ body {
     top: -1px;
     left: 0;
     margin-left: 4px;
+    line-height: 1em;
 }
 .info-container{
     display: inline-block;
@@ -741,6 +749,7 @@ body {
     text-align: center;
     color: #a7b3cb;
     font-size: 13px;
+    line-height: 1em;
 }
 
 .inner_header {
@@ -769,6 +778,7 @@ body {
     text-overflow: ellipsis;
 }
 
+/*PLUS BUTTON***********-********************************/
 .header__plus-button {
     width: 64px;
     height: 64px;
@@ -776,7 +786,9 @@ body {
     display: table;
     text-align: center;
 }
-
+.header__plus-button_hover:hover{
+    background-color: #64728c;
+}
 .header__plus-button_position {
     float: right;
 }
@@ -787,6 +799,7 @@ body {
     height: 29px;
     padding: 16px;
 }
+/*PLUS BUTTON***********-********************************/
 
 @media (max-width: 1200px) {
     .nav-bar {
