@@ -2,7 +2,6 @@
     background: #FFF;
 }
 
-/*BODY STYLE***************************************/
 body {
     background: #FFF;
 }
@@ -11,4 +10,12 @@ body {
     min-width: 545px;
     display: table;
     width: 100%;
+}
+
+.display_inline-block {
+    display: inline-block;
+}
+
+.full-border {
+    border: 1px solid rgba(217, 217, 217, 0.54);
 }

@@ -1,0 +1,15 @@
+.answers-wrap {
+    display: table;
+    text-align: center;
+}
+
+.answers {
+    display: table;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.answers_position {
+    margin-top: 24px;
+    float: right;
+}

@@ -32,7 +32,7 @@
     width: 299px;
     border-left: #424b5f 1px solid;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 14px;
     padding-bottom: 13px;
 }
 
@@ -73,7 +73,7 @@
 
 .header__plus-button {
     width: 64px;
-    height: 64px;
+    height: 63px;
     border-left: #424b5f 1px solid;
     display: table;
     text-align: center;
@@ -90,6 +90,42 @@
 .header__plus-button img {
     display: inline-block;
     width: 28px;
-    height: 29px;
+    height: 28px;
     padding: 16px;
+}
+
+.header__input-search {
+    width: 100%;
+    background: #424b5f;
+    border: 0;
+    border-radius: 5px;
+    color: #a7b3cb;
+    font-size: 14px;
+    font-weight: normal;
+    height: 37px;
+    line-height: 1.5em;
+    margin-top: 15px;
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    outline: none;
+}
+
+.header__input-search::placeholder {
+    text-align: center;
+    color: #a7b3cb;
+    font-size: 13px;
+    line-height: 2.5em;
+}
+
+.inner_header {
+    width: 100%;
+    display: inline-table;
+}
+
+.ham_area {
+    width: 65px;
+    height: 65px;
+    align-items: center;
 }

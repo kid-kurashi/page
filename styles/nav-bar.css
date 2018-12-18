@@ -1,0 +1,88 @@
+.nav-bar {
+    width: 250px;
+    height: 100vw;
+    display: block;
+    background: #4f5a6e;
+}
+
+.nav-bar__login {
+    width: 250px;
+    height: 64px;
+    border-bottom: #485265 1px solid;
+}
+
+.nav-bar__menu {
+    width: 250px;
+}
+
+.nav-bar__link {
+    width: 195px;
+    display: inline-block;
+    font-weight: 900;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    background-position: left;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    line-height: 1.35em;
+}
+
+.nav-bar__login a:hover {
+    text-decoration: underline;
+}
+
+.link_brightness {
+    color: #a7b3cb;
+}
+
+.link_brightness:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.nav-bar__a_login-position {
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.nav-bar__a_login-image {
+    background-image: url("../images/icon_lock.png");
+}
+
+.nav-bar__block-login {
+    background: image("../images/icon_lock.png");
+    background-size: 20px 20px;
+    width: 100%;
+    display: inline;
+}
+
+.nav-bar__link_position {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav-bar__link_all-questions-image {
+    background-image: url("../images/icon_list.png");
+}
+
+.nav-bar__link_all-tags-image {
+    background-image: url("../images/icon_tag.png");
+}
+
+.nav-bar__link_all-users-image {
+    background-image: url("../images/icon_group.png");
+}
+
+.link_ext-size {
+    font-size: 15px;
+}
+.nav-bar_position {
+    float: left;
+}
+.nav_menu_item {
+    display: block;
+}
